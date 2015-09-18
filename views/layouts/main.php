@@ -37,12 +37,12 @@ AppAsset::register($this);
                 ['label' => 'Theory lessons', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/theory/hello']],
                         ['label' => 'Activities', 'url' => ['/theory/activities']],
-                        ['label' => 'User Interfaces', 'url' => '#'],
+                        ['label' => 'User Interfaces 1', 'url' =>['/theory/userinterfaces1']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
-                        ['label' => 'Activities', 'url' => '#'],
-                        ['label' => 'User Interfaces', 'url' => '#'],
+                        ['label' => 'Activities', 'url' => ['/excercises/activities']],
+                        ['label' => 'User Interfaces', 'url' => ['/excercises/ui1']],
                     ]],
             ];
 

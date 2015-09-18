@@ -22,5 +22,12 @@ class ExcercisesController extends Controller {
     public function actionHello() {
         return $this->render('helloandroid');
     }
+    
+    public function actionActivities(){
+        return $this->render('activities');
+    }
 
+    public function actionUi1(){
+        return $this->render('ui1');
+    }
 }
