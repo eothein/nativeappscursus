@@ -37,12 +37,14 @@ AppAsset::register($this);
                 ['label' => 'Theory lessons', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/theory/hello']],
                         ['label' => 'Activities', 'url' => ['/theory/activities']],
-                        ['label' => 'User Interfaces 1', 'url' =>['/theory/userinterfaces1']],
+                        ['label' => 'User Interfaces 1', 'url' => ['/theory/userinterfaces1']],
+                        ['label' => 'User Interfaces 2', 'url' => ['/theory/userinterfaces2']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
                         ['label' => 'Activities', 'url' => ['/excercises/activities']],
-                        ['label' => 'User Interfaces', 'url' => ['/excercises/ui1']],
+                        ['label' => 'User Interfaces 1', 'url' => ['/excercises/ui1']],
+                        ['label' => 'User Interfaces 2', 'url' => ['/excercises/ui2']],
                     ]],
             ];
 
@@ -58,11 +60,11 @@ AppAsset::register($this);
             ?>
 
             <div class="container">
-            <?=
-            Breadcrumbs::widget([
-                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-            ])
-            ?>
+                <?=
+                Breadcrumbs::widget([
+                    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                ])
+                ?>
                 <?= $content ?>
             </div>
         </div>
@@ -75,7 +77,7 @@ AppAsset::register($this);
             </div>
         </footer>
 
-<?php $this->endBody() ?>
+        <?php $this->endBody() ?>
     </body>
 </html>
-        <?php $this->endPage() ?>
+<?php $this->endPage() ?>

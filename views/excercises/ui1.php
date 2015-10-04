@@ -301,8 +301,8 @@ dependencies {
 
         <div class="row">
             <div class='col-sm-10'>
-                <h2>Exiting the Game</h2>
-                <p>The user can just press the Back key or the Home key to do something else. Althought this is possible
+                <h2>Excercise 6: Exiting the Game</h2>
+                <p>The user can just press the Back key or the Home key to do something else. Although this is possible
                 ware are going to add this functionality to the exit button in the home screen. Use butterknife and
                 be amazed by its power! No need for case and switch statements for instance.</p>
             </div>
