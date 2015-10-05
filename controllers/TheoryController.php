@@ -31,4 +31,8 @@ class TheoryController extends Controller {
     public function actionUserinterfaces1(){
         return $this->render('userinterfaces1');
     }
+    
+    public function actionUserinterfaces2(){
+        return $this->render('userinterfaces2');
+    }
 }
