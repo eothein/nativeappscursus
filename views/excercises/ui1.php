@@ -249,54 +249,13 @@ dependencies {
         </div>
 
         <div class="row">
-            <div class='col-sm-10'>
+            <div class='col-sm-12'>
                 <h2 id="section-five">Excercise 5: Adjust the action bar</h2>
                 <p>We are going to adjust the action bar by adding a button which 
                     restarts the current game. Click <a href="http://developer.android.com/training/basics/actionbar/adding-buttons.html">here</a> if you forgot how to 
                     add elements to the action bar. The action for the restart button is for later. </p>
             </div>
-            <div class='col-sm-12'>
-
-                <?php
-                echo newerton\fancybox\FancyBox::widget([
-                    'target' => 'a[rel=fancybox]',
-                    'helpers' => true,
-                    'mouse' => true,
-                    'config' => [
-                        'maxWidth' => '90%',
-                        'maxHeight' => '90%',
-                        'playSpeed' => 7000,
-                        'padding' => 0,
-                        'fitToView' => false,
-                        'width' => '70%',
-                        'height' => '70%',
-                        'autoSize' => false,
-                        'closeClick' => false,
-                        'openEffect' => 'elastic',
-                        'closeEffect' => 'elastic',
-                        'prevEffect' => 'elastic',
-                        'nextEffect' => 'elastic',
-                        'closeBtn' => false,
-                        'openOpacity' => true,
-                        'helpers' => [
-                            'title' => ['type' => 'float'],
-                            'buttons' => [],
-                            'thumbs' => ['width' => 68, 'height' => 50],
-                            'overlay' => [
-                                'locked' => false,
-                                'css' => [
-                                    'background' => 'rgba(0, 0, 0, 0.8)'
-                                ]
-                            ]
-                        ],
-                    ]
-                ]);
-
-                echo Html::a(Html::img('@web/images/ui1/withaction.png', ['alt' => 'With action bar',
-                            'width' => '100%',
-                            'class' => "img-responsive"]), '@web/images/ui1/withaction.png', ['rel' => 'fancybox']);
-                ?>
-            </div>
+            
         </div>
 
         <div class="row">
