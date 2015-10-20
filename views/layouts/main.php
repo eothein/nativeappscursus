@@ -45,6 +45,7 @@ AppAsset::register($this);
                         ['label' => 'Activities', 'url' => ['/excercises/activities']],
                         ['label' => 'User Interfaces 1', 'url' => ['/excercises/ui1']],
                         ['label' => 'User Interfaces 2', 'url' => ['/excercises/ui2']],
+                        ['label' => 'Fragments', 'url' => ['/excercises/fragments']],
                     ]],
             ];
 

@@ -34,5 +34,9 @@ class ExcercisesController extends Controller {
     public function actionUi2() {
         return $this->render('ui2');
     }
+    
+    public function actionFragments(){
+        return $this->render('fragments');
+    }
 
 }
