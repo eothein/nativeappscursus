@@ -35,4 +35,13 @@ class TheoryController extends Controller {
     public function actionUserinterfaces2(){
         return $this->render('userinterfaces2');
     }
+    
+    public function actionFragments(){
+        return $this->render('fragments');
+    }
+    
+    public function actionIntents(){
+        return $this->render('intents');
+    }
+            
 }

@@ -39,6 +39,8 @@ AppAsset::register($this);
                         ['label' => 'Activities', 'url' => ['/theory/activities']],
                         ['label' => 'User Interfaces 1', 'url' => ['/theory/userinterfaces1']],
                         ['label' => 'User Interfaces 2', 'url' => ['/theory/userinterfaces2']],
+                        ['label' => 'Fragments and what not', 'url' => ['/theory/fragments']],
+                        ['label' => 'Intents', 'url' => ['/theory/intents']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
