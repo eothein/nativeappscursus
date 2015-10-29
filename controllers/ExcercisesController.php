@@ -38,5 +38,9 @@ class ExcercisesController extends Controller {
     public function actionFragments(){
         return $this->render('fragments');
     }
+    
+    public function actionIntents(){
+        return $this->render("intents");
+    }
 
 }
