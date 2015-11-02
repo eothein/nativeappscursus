@@ -34,13 +34,17 @@ class ExcercisesController extends Controller {
     public function actionUi2() {
         return $this->render('ui2');
     }
-    
-    public function actionFragments(){
+
+    public function actionFragments() {
         return $this->render('fragments');
     }
-    
-    public function actionIntents(){
+
+    public function actionIntents() {
         return $this->render("intents");
+    }
+
+    public function actionRecyclerview() {
+        return $this->render("recyclerview");
     }
 
 }

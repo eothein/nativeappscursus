@@ -43,5 +43,9 @@ class TheoryController extends Controller {
     public function actionIntents(){
         return $this->render('intents');
     }
+    
+        public function actionRecyclerview(){
+        return $this->render('recyclerview');
+    }
             
 }

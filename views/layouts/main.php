@@ -41,6 +41,7 @@ AppAsset::register($this);
                         ['label' => 'User Interfaces 2', 'url' => ['/theory/userinterfaces2']],
                         ['label' => 'Fragments and what not', 'url' => ['/theory/fragments']],
                         ['label' => 'Intents', 'url' => ['/theory/intents']],
+                        ['label' => 'RecyclerView', 'url' => ['/theory/recyclerview']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
@@ -49,6 +50,7 @@ AppAsset::register($this);
                         ['label' => 'User Interfaces 2', 'url' => ['/excercises/ui2']],
                         ['label' => 'Fragments', 'url' => ['/excercises/fragments']],
                         ['label' => 'Intents', 'url' => ['/excercises/intents']],
+                        ['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
                     ]],
             ];
 
