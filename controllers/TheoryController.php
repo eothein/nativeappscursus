@@ -23,29 +23,36 @@ class TheoryController extends Controller {
         return $this->render('helloandroid');
     }
 
-    
-    public function actionActivities(){
+    public function actionActivities() {
         return $this->render('activities');
     }
-    
-    public function actionUserinterfaces1(){
+
+    public function actionUserinterfaces1() {
         return $this->render('userinterfaces1');
     }
-    
-    public function actionUserinterfaces2(){
+
+    public function actionUserinterfaces2() {
         return $this->render('userinterfaces2');
     }
-    
-    public function actionFragments(){
+
+    public function actionFragments() {
         return $this->render('fragments');
     }
-    
-    public function actionIntents(){
+
+    public function actionIntents() {
         return $this->render('intents');
     }
-    
-        public function actionRecyclerview(){
+
+    public function actionRecyclerview() {
         return $this->render('recyclerview');
     }
-            
+
+    public function actionPersistency() {
+        return $this->render('persistency');
+    }
+
+    public function actionPersistency2() {
+        return $this->render('persistency2');
+    }
+
 }

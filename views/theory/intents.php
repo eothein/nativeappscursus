@@ -77,15 +77,13 @@ if (somethingWeird && itDontLookGood) {
     new Intent(Intent.ACTION_DIAL, Uri.parse(“tel:555-2368”));
     // Check if an Activity exists to perform this action.
     PackageManager pm = getPackageManager();
-    Introducing Intents x 169
     ComponentName cn = intent.resolveActivity(pm);
     if (cn == null) {
         // If there is no Activity available to perform the action
         // Check to see if the Google Play Store is available.
         Uri marketUri =
         Uri.parse(“market://search?q=pname:com.myapp.packagename”);
-        Intent marketIntent = new
-        Intent(Intent.ACTION_VIEW).setData(marketUri);
+        Intent marketIntent = new Intent(Intent.ACTION_VIEW).setData(marketUri);
         // If the Google Play Store is available, use it to download an application
         // capable of performing the required action. Otherwise log an
         // error.

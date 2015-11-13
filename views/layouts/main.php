@@ -42,6 +42,8 @@ AppAsset::register($this);
                         ['label' => 'Fragments and what not', 'url' => ['/theory/fragments']],
                         ['label' => 'Intents', 'url' => ['/theory/intents']],
                         ['label' => 'RecyclerView', 'url' => ['/theory/recyclerview']],
+                        ['label' => 'Persistency', 'url' => ['/theory/persistency']],
+                        ['label' => 'Persistency with SQLite', 'url' => ['/theory/persistency2']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],

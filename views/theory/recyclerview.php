@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <article>
     <div class="row">
-        <div class="col-sm-10">
+        <div class="col-sm-12">
             <h1>RecyclerView and CardViews</h1>
 
             <p>f you are interested in building an Android app that makes use of lists to display data, 
