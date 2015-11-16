@@ -47,4 +47,8 @@ class ExcercisesController extends Controller {
         return $this->render("recyclerview");
     }
 
+    public function actionSqllite() {
+        return $this->render("sqllite");
+    }
+
 }

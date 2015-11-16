@@ -53,6 +53,7 @@ AppAsset::register($this);
                         ['label' => 'Fragments', 'url' => ['/excercises/fragments']],
                         ['label' => 'Intents', 'url' => ['/excercises/intents']],
                         ['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
+                        ['label' => 'SqlLite', 'url' => ['/excercises/sqllite']],
                     ]],
             ];
 
