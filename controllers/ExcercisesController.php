@@ -51,4 +51,8 @@ class ExcercisesController extends Controller {
         return $this->render("sqllite");
     }
 
+    public function actionServices() {
+        return $this->render('services');
+    }
+
 }

@@ -55,4 +55,8 @@ class TheoryController extends Controller {
         return $this->render('persistency2');
     }
 
+    public function actionServices() {
+        return $this->render('services');
+    }
+
 }

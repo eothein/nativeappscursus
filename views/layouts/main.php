@@ -44,6 +44,7 @@ AppAsset::register($this);
                         ['label' => 'RecyclerView', 'url' => ['/theory/recyclerview']],
                         ['label' => 'Persistency', 'url' => ['/theory/persistency']],
                         ['label' => 'Persistency with SQLite', 'url' => ['/theory/persistency2']],
+                        ['label' => 'Network & Services', 'url' => ['/theory/services']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
@@ -54,6 +55,7 @@ AppAsset::register($this);
                         ['label' => 'Intents', 'url' => ['/excercises/intents']],
                         ['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
                         ['label' => 'SqlLite', 'url' => ['/excercises/sqllite']],
+                        ['label' => 'Network & Services', 'url' => ['/excercises/services']],
                     ]],
             ];
 
