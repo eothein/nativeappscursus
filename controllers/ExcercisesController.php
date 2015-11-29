@@ -54,5 +54,9 @@ class ExcercisesController extends Controller {
     public function actionServices() {
         return $this->render('services');
     }
+    
+    public function actionTesting(){
+        return $this->render('testing');
+    }
 
 }

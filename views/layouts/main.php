@@ -45,6 +45,7 @@ AppAsset::register($this);
                         ['label' => 'Persistency', 'url' => ['/theory/persistency']],
                         ['label' => 'Persistency with SQLite', 'url' => ['/theory/persistency2']],
                         ['label' => 'Network & Services', 'url' => ['/theory/services']],
+                        ['label' => 'Testing', 'url' => ['/theory/testing']],
                     ]],
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
@@ -56,6 +57,7 @@ AppAsset::register($this);
                         ['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
                         ['label' => 'SqlLite', 'url' => ['/excercises/sqllite']],
                         ['label' => 'Network & Services', 'url' => ['/excercises/services']],
+                        ['label' => 'Testing and GreenDAO', 'url' => ['/excercises/testing']],
                     ]],
             ];
 
