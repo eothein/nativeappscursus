@@ -32,28 +32,24 @@ $baseUrl = Yii::$app->getUrlManager()->getBaseUrl()
             <div class="col-lg-4">
                 <h2>Theory</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>A part of this site is reserved for theory lessons. It contains
+                links to helpful web sites and tutorials.</p>
             </div>
             <div class="col-lg-4">
                 <h2>Excercises</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>The excercise section explains the assignments and excercises
+                for this course.</p>
 
                 
             </div>
             <div class="col-lg-4">
                 <h2>Best Practices</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Android is a fragmented development framework, where standards
+                are spread across the ecosystem. We will try to implement using
+                the best practices at hand with supporting libraries which will ease
+                the development process.</p>
 
                 
             </div>

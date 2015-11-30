@@ -147,13 +147,13 @@ $this->params['breadcrumbs'][] = $this->title;
                         framework (and computer).
 
                     </p>
-                    </a>
+                    
                 </div>
             </div>
-        </div>
+
         <div class="row">
             <div class="col-sm-12">
-                <h2 id="section-two">GreenDAO</h2>
+                <h2 id="section-three">GreenDAO</h2>
                 <p> <a href="http://greendao-orm.com/">greenDAO</a> is an open source project to help Android developers
                     working with data stored in SQLite. SQLite is an awesome embedded relational database,
                     however, developing for it requires alot of additional work. 
