@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <ul>
                 <li>Use Fragments to represent a UI screen</li>
                 <li>Use Activities just to manage Fragments</li>
-                <li>Make use of usefull libraries to ease the programming (e.g. ButterKnife)</li>
+                <li>Make use of useful libraries to ease the programming (e.g. ButterKnife)</li>
                 <li>Layout XMLs are code, organize them well</li>
                 <li>Do not make a deep hierarchy of ViewGroups</li>
                 <li>Use Genymotion as your emulator</li>
