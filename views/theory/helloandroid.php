@@ -79,7 +79,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     a media manager.</li>
                 <li>A <b>run time</b> used to execute and host Android applications, including the Dalvik Virtual
                     Machine (VM) and the core libraries that provide Android-specific functionality. The run
-                    time is designed to be small and effi cient for use on mobile devices.</li>
+                    time is designed to be small and efficient for use on mobile devices.</li>
                 <li>An <b>application framework</b> that agnostically exposes system services to the application layer,
                     including the window manager and location manager, databases, telephony, and sensors.</li>
             </ul>
