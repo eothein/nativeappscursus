@@ -213,11 +213,11 @@ import android.content.Intent;
     public void onReceive(Context context, Intent intent) {
         //TODO: React to the Intent received.
     }
-}                    
+}
                 </pre>
                 <p>The onReceive method will be executed on the main application thread when a Broadcast Intent
                     is received that matches the Intent Filter used to register the Receiver. The onReceive handler must
-                    complete within fi ve seconds;</p>
+                    complete within five seconds;</p>
                 <h3>Registering broadcastreceivers in code</h3>
                 <p>Broadcast Receivers that affect the UI of a particular Activity are typically registered in code. A
                     Receiver registered programmatically will respond to Broadcast Intents only when the application
