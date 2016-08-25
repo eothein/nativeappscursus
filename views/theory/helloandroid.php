@@ -225,8 +225,8 @@ $this->params['breadcrumbs'][] = $this->title;
                         forms the basis for the application framework.</li>
                     <li><b>Core libraries</b> — Although most Android application development is written using
                         the Java language, Dalvik is not a Java VM. The core Android libraries provide
-                        most of the functionality available in the core Java libraries, as well as the Androidspecifi
-                        c libraries.</li>
+                        most of the functionality available in the core Java libraries, as well as the Androidspecific
+                        libraries.</li>
                     <li><b>Dalvik VM</b> — Dalvik is a register-based Virtual Machine that’s been optimized to
                         ensure that a device can run multiple instances effi ciently. It relies on the Linux kernel
                         for threading and low-level memory management.</li>
