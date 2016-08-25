@@ -228,7 +228,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         most of the functionality available in the core Java libraries, as well as the Androidspecific
                         libraries.</li>
                     <li><b>Dalvik VM</b> — Dalvik is a register-based Virtual Machine that’s been optimized to
-                        ensure that a device can run multiple instances effi ciently. It relies on the Linux kernel
+                        ensure that a device can run multiple instances efficiently. It relies on the Linux kernel
                         for threading and low-level memory management.</li>
                     <li><b>Application framework </b> — The application framework provides the classes used to create
                         Android applications. It also provides a generic abstraction for hardware access and manages
