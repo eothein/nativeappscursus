@@ -347,7 +347,7 @@ public class ExampleActivity extends Activity {
             <h2 id="section-three">The manifest file</h2>
             <p>Each Android project includes a manifest file, AndroidManifest.xml, stored in the root of its project
                 hierarchy. The manifest defines the structure and metadata of your application, its components,
-                and its requirements. It this section we will briefly describe what you can find in the manifest,
+                and its requirements. In this section we will briefly describe what you can find in the manifest,
                 but during the lessons we will have a closer look into it.</p>
             <ul>
                 <li>It includes nodes for each of the Activities, Services, Content Providers, and Broadcast Receivers
