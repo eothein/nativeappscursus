@@ -397,7 +397,7 @@ public class ExampleActivity extends Activity {
                 strings and colors to more complex resources such as images (Drawables), animations, themes, and
                 menus. Perhaps the most powerful externalizable resources are layouts.</p>
             <p>By externalizing resources, you make them easier to maintain, update, and manage. This also
-                lets you easily defi ne alternative resource values for internationalization and to include different
+                lets you easily define alternative resource values for internationalization and to include different
                 resources to support variations in hardware — particularly, screen size and resolution.</p>
             <h3>Creating Resources</h3>
             <p>Application resources are stored under the res folder in your project hierarchy. Each of the available
