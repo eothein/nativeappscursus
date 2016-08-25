@@ -14,10 +14,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-sm-12">
             <h1>RecyclerView and CardViews</h1>
 
-            <p>f you are interested in building an Android app that makes use of lists to display data, 
-                Android Lollipop features two new widgets to make your life easier, RecyclerView and CardView. 
-                Using these widgets, it is very easy to give your app a look and feel that conforms to the guidelines 
-                mentioned in Google's material design specification.</p>  
+            <p>If you are interested in building an Android app that makes use of lists to display data,
+                Android Lollipop features two new widgets to make your life easier, RecyclerView and CardView.
+                Using these widgets, it is very easy to give your app a look and feel that conforms to the guidelines
+                mentioned in Google's material design specification.</p>
         </div>
         <div class="col-sm-2">
             <?php
