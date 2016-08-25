@@ -107,7 +107,7 @@ if (somethingWeird && itDontLookGood) {
                     register them in the application manifest in the same way as any other Activity. Any manifest-registered
                     Activity can be opened as a sub-Activity, including those provided by the system or third-party
                     applications.
-                    When a sub-Activity is fi nished, it triggers the onActivityResult event handler within the calling
+                    When a sub-Activity is finished, it triggers the onActivityResult event handler within the calling
                     Activity. Sub-Activities are particularly useful in situations in which one Activity is providing data
                     input for another, such as a user selecting an item from a list.
                     Launching Sub-Activities
