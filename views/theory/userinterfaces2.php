@@ -27,8 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     suit multipane tablet UIs and added to, removed from, and exchanged within a running Activity to
                     help build dynamic UIs.</p>
                 <p>Although it is not necessary to divide your Activities (and their corresponding layouts) into
-                    Fragments, doing so will drastically improve the fl exibility of your UI and make it easier for you to
-                    adapt your user experience for new device confi gurations.</p>
+                    Fragments, doing so will drastically improve the flexibility of your UI and make it easier for you to
+                    adapt your user experience for new device configurations.</p>
                 <h3>Example</h3>
                 <p> When designing your application to support both tablets and handsets, 
                     you can reuse your fragments in different layout configurations to optimize 
