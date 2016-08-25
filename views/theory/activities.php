@@ -404,7 +404,7 @@ public class ExampleActivity extends Activity {
                 resource types is stored in subfolders, grouped by resource type. 
                 When your application is built, these resources will be compiled and compressed
                 as efficiently as possible and included in your application package.
-                This process also generates an R class fi le that contains references to each of the resources you
+                This process also generates an R class file that contains references to each of the resources you
                 include in your project. This enables you to reference the resources in your code, with the advantage
                 of design-time syntax checking.</p>
         </div>
