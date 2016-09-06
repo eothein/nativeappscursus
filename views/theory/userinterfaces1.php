@@ -87,7 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <ul>
                     <li><b>LinearLayout</b> - A layout that organizes its children into a single horizontal or vertical row. 
                         It creates a scrollbar if the length of the window exceeds the length of the screen.</li>
-                    <li><b>RelativeLaytou</b> - Enables you to specify the location of child objects relative to each other 
+                    <li><b>RelativeLayout</b> - Enables you to specify the location of child objects relative to each other
                         (child A to the left of child B) or to the parent (aligned to the top of the parent).</li>
                     <li><b>FrameLayout</b> - The Frame Layout pins each child
                         view within its frame. The default position is the top-left corner, though you can use the
