@@ -107,7 +107,7 @@ if (somethingWeird && itDontLookGood) {
                     register them in the application manifest in the same way as any other Activity. Any manifest-registered
                     Activity can be opened as a sub-Activity, including those provided by the system or third-party
                     applications.
-                    When a sub-Activity is fi nished, it triggers the onActivityResult event handler within the calling
+                    When a sub-Activity is finished, it triggers the onActivityResult event handler within the calling
                     Activity. Sub-Activities are particularly useful in situations in which one Activity is providing data
                     input for another, such as a user selecting an item from a list.
                     Launching Sub-Activities
@@ -213,11 +213,11 @@ import android.content.Intent;
     public void onReceive(Context context, Intent intent) {
         //TODO: React to the Intent received.
     }
-}                    
+}
                 </pre>
                 <p>The onReceive method will be executed on the main application thread when a Broadcast Intent
                     is received that matches the Intent Filter used to register the Receiver. The onReceive handler must
-                    complete within fi ve seconds;</p>
+                    complete within five seconds;</p>
                 <h3>Registering broadcastreceivers in code</h3>
                 <p>Broadcast Receivers that affect the UI of a particular Activity are typically registered in code. A
                     Receiver registered programmatically will respond to Broadcast Intents only when the application

@@ -347,7 +347,7 @@ public class ExampleActivity extends Activity {
             <h2 id="section-three">The manifest file</h2>
             <p>Each Android project includes a manifest file, AndroidManifest.xml, stored in the root of its project
                 hierarchy. The manifest defines the structure and metadata of your application, its components,
-                and its requirements. It this section we will briefly describe what you can find in the manifest,
+                and its requirements. In this section we will briefly describe what you can find in the manifest,
                 but during the lessons we will have a closer look into it.</p>
             <ul>
                 <li>It includes nodes for each of the Activities, Services, Content Providers, and Broadcast Receivers
@@ -397,14 +397,14 @@ public class ExampleActivity extends Activity {
                 strings and colors to more complex resources such as images (Drawables), animations, themes, and
                 menus. Perhaps the most powerful externalizable resources are layouts.</p>
             <p>By externalizing resources, you make them easier to maintain, update, and manage. This also
-                lets you easily defi ne alternative resource values for internationalization and to include different
+                lets you easily define alternative resource values for internationalization and to include different
                 resources to support variations in hardware — particularly, screen size and resolution.</p>
             <h3>Creating Resources</h3>
             <p>Application resources are stored under the res folder in your project hierarchy. Each of the available
                 resource types is stored in subfolders, grouped by resource type. 
                 When your application is built, these resources will be compiled and compressed
                 as efficiently as possible and included in your application package.
-                This process also generates an R class fi le that contains references to each of the resources you
+                This process also generates an R class file that contains references to each of the resources you
                 include in your project. This enables you to reference the resources in your code, with the advantage
                 of design-time syntax checking.</p>
         </div>

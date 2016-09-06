@@ -14,13 +14,13 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-sm-12">
             <h1>Fragments and best practises</h1>
 
-            <p>Before we go into some more concepts 
-                ww will take a quick review of  best practices learned from the Lessons  from 
-                last weeks.</p>  
+            <p>Before we go into some more concepts
+                we will take a quick review of best practices learned from the lessons from
+                last weeks.</p>
             <ul>
                 <li>Use Fragments to represent a UI screen</li>
                 <li>Use Activities just to manage Fragments</li>
-                <li>Make use of usefull libraries to ease the programming (e.g. ButterKnife)</li>
+                <li>Make use of useful libraries to ease the programming (e.g. ButterKnife)</li>
                 <li>Layout XMLs are code, organize them well</li>
                 <li>Do not make a deep hierarchy of ViewGroups</li>
                 <li>Use Genymotion as your emulator</li>
