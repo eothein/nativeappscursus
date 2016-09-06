@@ -138,7 +138,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <h2 id="section-six">Examination</h2>
 
                 <p>
-                    Both for the first as for the second exam periode, you will be examined via an oral exam. 
+                    Both for the first as for the second exam period, you will be examined via an oral exam. 
                     You will be handed a set of questions which you will have some time to 
                     prepare for. Some of the questions will be regarding the excercises you have made during the year, so 
                     <b> you are obliged to have made all the excercises</b>. If your question is one regarding an excercise you

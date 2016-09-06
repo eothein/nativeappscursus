@@ -19,14 +19,7 @@ $baseUrl = Yii::$app->getUrlManager()->getBaseUrl()
     
 
     <div class="body-content">
-        
-        <div class="row">
-            <div class="col-lg-12">
-
-                <p>Welcome text. </p>
-
-            </div>
-        </div>
+       
 
         <div class="row">
             <div class="col-lg-4">

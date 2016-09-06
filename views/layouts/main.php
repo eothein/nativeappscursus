@@ -59,6 +59,7 @@ AppAsset::register($this);
                         ['label' => 'Network & Services', 'url' => ['/excercises/services']],
                         ['label' => 'Testing and GreenDAO', 'url' => ['/excercises/testing']],
                     ]],
+                ['label' => 'Bachelorpapers', 'url' => ['/bachelorpaper/index']],
             ];
 
 
