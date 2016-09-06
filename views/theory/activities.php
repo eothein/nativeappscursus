@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <p>This lesson covers the fundamental building blocks needed to create Android 
                 applications. A thorough understanding of these components is necessary in order
                 to compile efficient and succesful native Android applications. We will discuss activities,
-            the Android manifest file and using external resources in an application.</p>  
+                the Android manifest file and using external resources in an application.</p>  
         </div>
     </div>
     <div class="all-sections">
@@ -174,11 +174,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 <p>Extend Activity to create a new Activity class. Within this new class you must define the UI and
                     implement your functionality. An empty Activity isn’t particularly useful, so the first thing you’ll 
                     want to do is create the UI with Fragments, layouts, and Views. This will be covered a little further on.</p>
-            </div>
 
-            <h3>The Activity Lifecycle</h3>
-            <p>As Activities are created and destroyed, they move in and out of the stack (the "back stack").
-                As they do so, they transition through four possible states</p>
+
+                <h3>The Activity Lifecycle</h3>
+                <p>As Activities are created and destroyed, they move in and out of the stack (the "back stack").
+                    As they do so, they transition through four possible states</p>
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-6">

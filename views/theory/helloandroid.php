@@ -57,29 +57,29 @@ $this->params['breadcrumbs'][] = $this->title;
                 </p>
                 <ol>
                     <li>A free, open soure operating system for embedded devices</li>
-                    <li> An open-source develoment platform for creating applications</li>
+                    <li>An open-source develoment platform for creating applications</li>
                     <li>Devices, particularly mobile devices, that run the Android operating 
                         system and the applications created for it. </li>
                 </ol>
             </div>
             <div class="col-sm-12">
-                <div class="alert alert-info" role="alert"> The term open source refers to software that has often been developed collaboratively by
-                    an open community of individuals, is freely available for commercial use, and comes with all of
-                    the source code so that it can be further modified if necessary. Android is open source, though
-                    Google develops it internally before releasing the source code; from that point on, it is freely
+                <div class="alert alert-info" role="alert"> The term open source refers to software that has often 
+                    been developed collaboratively by an open community of individuals, is freely available for 
+                    commercial use, and comes with all of the source code so that it can be further modified if necessary. 
+                    Android is open source, though Google develops it internally before releasing the source code; from that point on, it is freely
                     available for commercial use.</div>
             </div>
             <p>
                 More specifically, Android is made up of several necessary and dependent parts, including
-                (but not limited to) the following:          </p>  
+                (but not limited to) the following:</p>  
             <ul>
                 <li>A <b>Linux operating</b> system kernel that provides a low-level interface with the hardware, memory
                     management, and process control, all optimized for mobile and embedded devices.</li>
-                <li><b>Open-source libraries</b> for application development, including SQLite, WebKit, OpenGL, and
+                <li><b>Open-source libraries</b> for application development, including SQLite, WebKit, OpenGL and
                     a media manager.</li>
-                <li>A <b>run time</b> used to execute and host Android applications, including the Dalvik Virtual
-                    Machine (VM) and the core libraries that provide Android-specifi c functionality. The run
-                    time is designed to be small and effi cient for use on mobile devices.</li>
+                <li>A <b>run time</b> used to execute and host Android applications, including the <b>Dalvik Virtual</b>
+                    Machine (VM) or <b>Android Run Time (ART)</b> and the core libraries that provide Android-specific functionality. The run
+                    time is designed to be small and efficient for use on mobile devices.</li>
                 <li>An <b>application framework</b> that agnostically exposes system services to the application layer,
                     including the window manager and location manager, databases, telephony, and sensors.</li>
             </ul>
@@ -87,7 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <div class="row">
             <div class="col-sm-12">
-                <h3> Android Versions </h3>
+                <h2 id="section-two">Android Versions</h2>
                 <p>
                     The basic building blocks of Android come in many flavors, with each major release receiving a tasty nickname. 
                     This section is an extract of <a href="http://www.androidcentral.com/android-versions"> this article </a> and
@@ -204,10 +204,29 @@ $this->params['breadcrumbs'][] = $this->title;
                 </p>
                 <br>
             </div>
+            <div class="col-sm-12">
+                <h3>API levels</h3>
+                <p>
+                    The core Android development team tries very hard to ensure forwards
+                    and backwards compatibility. An app you write today should work unchanged on
+                    future versions of Android (forwards compatibility), albeit perhaps missing some
+                    features or working in some sort of “compatibility mode”. And there are well-trod
+                    paths for how to create apps that will work both on the latest and on previous
+                    versions of Android (backwards compatibility).
+                </p>
+                <p>
+                    To help us keep track of all the different OS versions that matter to us as developers,
+                    Android has API levels. A new API level is defined when an Android version ships
+                    that contains changes that affect developers. When you create an emulator AVD to
+                    test your app, you will indicate what API level that emulator should emulate. When
+                    you distribute your app, you will indicate the oldest API level your app supports, so
+                    the app is not installed on older devices.</p>
+
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h2 id="section-two">The Android software stack</h2>
+                <h2 id="section-three">The Android software stack</h2>
 
 
                 <p>The Android software stack is a Linux kernel and a collection of C/C++ libraries
@@ -284,7 +303,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h2 id="section-three">The virtual machine</h2>
+                <h2 id="section-four">The virtual machine</h2>
                 <h3>The Dalvik Virtual Machine</h3>
                 <p>Android apps are deployed in Dalvik bytecode, which is portable, unlike native code. In order to be able to run the app 
                     on a device, the code has to be compiled to machine code. Dalvik is based on JIT (just in time) compilation. This means that 

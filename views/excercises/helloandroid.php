@@ -36,5 +36,25 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="panel-body">Generally, it’s a good practice to support about 90% of the active devices, 
                 while targeting your app to the latest version.</div>
         </div>
+        <h3>Target SDK</h3>
+        <p>The Target SDK, roughly speaking, is the version of Android you were thinking of
+            when you were writing the code for this app. Usually, you will set this to be the latest
+            shipping Android API level, then change it over time as new versions of Android are
+            released and you decide that you are ready for some of those changes.</p>
+        <h3>Compile with or build SDK or compileSDKVersion</h3>
+        <p>The Compile With (a.k.a., build SDK or compileSdkVersion) is the version of
+            Android whose classes and methods you want to compile against. This can be newer
+            than the minimum required SDK, and it often is newer. On newer devices running
+            newer versions of Android, you might want to take advantage of some new features,
+            and you will “route around” that code on older devices to maintain backwards
+            compatibility. Hence, typically, your build SDK is set to a fairly new version of
+            Android, certainly one new enough to support all of the classes and methods from
+            the Android SDK that you want to use. Note that to set this to API Level 21 or higher,
+            you will need to be using Java 7 or higher for your Java compiler.</p>
+        <h3>Theme</h3>
+        <p>The “Theme” is a general statement of the look and feel of your app, particularly in
+            terms of color scheme. The current default (“Holo Light with Dark Action Bar”)
+            means that the body of your UI will be dark text on a light background, except for
+            the “action bar” across the top, which will be light text on a dark background</p>
     </div>
 </article>
