@@ -3,6 +3,7 @@
 
 use app\assets\TocAsset;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 TocAsset::register($this);
 $this->title = 'Excercies on Applications and Activities';
@@ -16,6 +17,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <p>In this lesson we will build our first working app, using activities, intents and some basic
                 User Interface design.</p>  
+            <p>Create a GitHub repository using 
+                <?php echo Html::a('this link',Url::to('https://classroom.github.com/assignment-invitations/1ba7b406f11fb35d202db0bb6afcdd10',true), ['class'=>'btn btn-primary']) ?>
+                to create this project (Skeleton code will be provided):</p>
         </div>
     </div>
     <div class="all-sections">
@@ -86,8 +90,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="col-sm-10">
                 <h2 id="section-one">Excercise 2</h2>
                 <p>Now it is time to create a second activity, witht the same functionality as the former
-                activity you have made. We are going to allow the first Activity to start the second activity.
-                When you close the second activity, you should see the first activity again. You should:</p>
+                    activity you have made. We are going to allow the first Activity to start the second activity.
+                    When you close the second activity, you should see the first activity again. You should:</p>
                 <ol>
                     <li> Add buttons to both activities (to start the second activity) and one to close the second activity</li>
                     <li> Implement the method which starts the second activity when the button has been pressed.</li>
@@ -139,6 +143,20 @@ $this->params['breadcrumbs'][] = $this->title;
                             'width' => '100%',
                             'class' => "img-responsive"]), '@web/images/activities/activity2.png', ['rel' => 'fancybox']);
                 ?>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <h2 id="section-one">Testing</h2>
+                <p> The first Android SDK testing solution we will examine is the JUnit test framework.
+                    This is a standard Java unit testing framework. Originally, Android itself “baked in” a
+                    copy of JUnit3. This has since been deprecated, and modern Android testing is done
+                    with a separate copy of JUnit4, in the form of a AndroidJUnitRunner class.</p>
+                <p>There are two places in Android app development where we use JUnit4:
+                    instrumentation tests and unit tests. Both serve the same objective: confirm that our
+                    code runs as expected. What differs in where the code lives (androidTest versus
+                    test sourcesets) and where the code runs (inside of Android or on your
+                    development machine directly).</p>
             </div>
         </div>
 

@@ -3,6 +3,7 @@
 
 use app\assets\TocAsset;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 TocAsset::register($this);
 $this->title = 'Applications and Activities';
@@ -490,5 +491,8 @@ public class ExampleActivity extends Activity {
             </pre>
         </div>
     </div>
-
+ <div class="row">
+        <div class="col-sm-8">
+            <h2 id="section-four">Demo</h2>
+            <p>A simple demo can be found <?php echo Html::a('here',Url::to('https://github.com/commonsguy/cw-omnibus/tree/master/Basic/Button',true), ['class'=>'btn btn-primary']) ?></p>
 </article>
