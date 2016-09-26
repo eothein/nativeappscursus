@@ -71,23 +71,15 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <p>
                 More specifically, Android is made up of several necessary and dependent parts, including
-<<<<<<< HEAD
-                (but not limited to) the following:</p>  
-=======
-                (but not limited to) the following:          </p>
->>>>>>> 42d9f50a56ccdf3fc15e53f8b61ba763bb0d8761
+                (but not limited to) the following:
+            </p>
             <ul>
                 <li>A <b>Linux operating</b> system kernel that provides a low-level interface with the hardware, memory
                     management, and process control, all optimized for mobile and embedded devices.</li>
                 <li><b>Open-source libraries</b> for application development, including SQLite, WebKit, OpenGL and
                     a media manager.</li>
-<<<<<<< HEAD
                 <li>A <b>run time</b> used to execute and host Android applications, including the <b>Dalvik Virtual</b>
                     Machine (VM) or <b>Android Run Time (ART)</b> and the core libraries that provide Android-specific functionality. The run
-=======
-                <li>A <b>run time</b> used to execute and host Android applications, including the Dalvik Virtual
-                    Machine (VM) and the core libraries that provide Android-specific functionality. The run
->>>>>>> 42d9f50a56ccdf3fc15e53f8b61ba763bb0d8761
                     time is designed to be small and efficient for use on mobile devices.</li>
                 <li>An <b>application framework</b> that agnostically exposes system services to the application layer,
                     including the window manager and location manager, databases, telephony, and sensors.</li>
