@@ -30,6 +30,11 @@ class ExcercisesController extends Controller {
     public function actionUi1() {
         return $this->render('ui1');
     }
+    
+    public function actionFooi(){
+         return $this->render('fooi');
+    }
+            
 
     public function actionUi2() {
         return $this->render('ui2');

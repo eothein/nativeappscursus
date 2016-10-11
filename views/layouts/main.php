@@ -50,7 +50,7 @@ AppAsset::register($this);
                 ['label' => 'Excercises', 'items' => [
                         ['label' => 'Hello Android', 'url' => ['/excercises/hello']],
                         ['label' => 'Activities', 'url' => ['/excercises/activities']],
-                        //['label' => 'User Interfaces 1', 'url' => ['/excercises/ui1']],
+                        ['label' => 'User Interfaces 1', 'url' => ['/excercises/fooi']],
                         //['label' => 'User Interfaces 2', 'url' => ['/excercises/ui2']],
                         //['label' => 'Fragments', 'url' => ['/excercises/fragments']],
                         //['label' => 'Intents', 'url' => ['/excercises/intents']],
