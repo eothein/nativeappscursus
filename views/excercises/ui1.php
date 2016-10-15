@@ -3,6 +3,7 @@
 
 use app\assets\TocAsset;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 TocAsset::register($this);
 $this->title = 'Excercise User Interfaces 1';
@@ -20,6 +21,10 @@ $this->params['breadcrumbs'][] = $this->title;
                 with the number 2048.</p>
             <p> To play an online version, visit <a href="http://2048game.com/"> here </a></p>
             <p> Although the web is cool, we are going to make a native version!</p>
+            <p>
+                Use this  <?php echo Html::a('this link', Url::to('https://classroom.github.com/assignment-invitations/2cf3822dc3d13cc339a3bbb13194dfe7', true), ['class' => 'btn btn-primary']) ?>
+                to create your repo
+            </p>
         </div>
     </div>
     <div class="all-sections">
