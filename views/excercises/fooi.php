@@ -51,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     )</li>
                     
                 </ul>
-                The application shoul show automaticaly
+                The application should show automaticaly
                 <ul>
                     <li>The required percentages (10, 15, 20)</li>
                     <li>The total amount of money to be paid depending on the percentages</li>
