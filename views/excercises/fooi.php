@@ -122,7 +122,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     based on the tip percentage the user selected using the 
                     seekbar. 
                 </p>
-                <h2 id="section-five">Excercise 3 : create the onSeekBarChangeListener</h2>
+                <h2 id="section-five">Excercise 5 : create the onSeekBarChangeListener</h2>
                 <p>
                     Create an anonymous inner-class customSeekBarListener
                     that listens to to customSeeksBar's events and create a 
