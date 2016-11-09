@@ -53,6 +53,7 @@ AppAsset::register($this);
                         ['label' => 'User Interfaces 1', 'url' => ['/excercises/fooi']],
                         ['label' => 'User Interfaces 2', 'url' => ['/excercises/ui1']],
                         ['label' => 'User Interfaces 3', 'url' => ['/excercises/ui2']],
+                        ['label' => 'A bunch of excercices', 'url' => ['/excercises/allabunch']],
                     //['label' => 'Fragments', 'url' => ['/excercises/fragments']],
                     //['label' => 'Intents', 'url' => ['/excercises/intents']],
                     //['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
