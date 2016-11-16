@@ -29,9 +29,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row">
         <div class="col-sm-12">
             <h2>Second Excercise: choices</h2>
-            <p> In this excercise we are going to create an application which provides
-            the user with a list of actions which he is able to perform. The choices
-            are the following:</p>
+            <p> In this excercise we are going to extend the application. The application should be able 
+                to provide 
+                the user with a list of extra actions which he is able to perform. The choices
+                are the following:</p>
             <ul>
                 <li>Open a web-site with a given url</li>
                 <li>Open the contacts</li>
@@ -39,6 +40,9 @@ $this->params['breadcrumbs'][] = $this->title;
                 <li>Search google</li>
                 <li>Start a voice command</li>
             </ul>
+            <p>The possibilities should be accessible with a button, but there should also be an extra functionality
+                that the voice command from the previous excercise  should be interpreted: "saying open" should open the website e.a.</p>
+
         </div>
     </div>
 </article>

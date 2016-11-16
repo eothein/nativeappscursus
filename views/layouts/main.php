@@ -55,7 +55,7 @@ AppAsset::register($this);
                         ['label' => 'User Interfaces 3', 'url' => ['/excercises/ui2']],
                         ['label' => 'A bunch of excercices', 'url' => ['/excercises/allabunch']],
                     //['label' => 'Fragments', 'url' => ['/excercises/fragments']],
-                    //['label' => 'Intents', 'url' => ['/excercises/intents']],
+                        ['label' => 'Intents', 'url' => ['/excercises/intents']],
                     //['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
                     //['label' => 'SqlLite', 'url' => ['/excercises/sqllite']],
                     //['label' => 'Network & Services', 'url' => ['/excercises/services']],

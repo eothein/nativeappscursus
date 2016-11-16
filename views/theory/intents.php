@@ -267,7 +267,48 @@ public void onPause() {
 
     <div class="row">
         <div class="col-sm-12">
-            <h2 id="section-one">Extra: </h2>
+            <h2 id="section-one">Parcable</h2>
+            <p> Intent extras cannot handle arbitrary objects. That is because, most
+                of the time, Intent extras get passed across process boundaries. Even when you are
+                calling startActivity() to start up one of your own activities, that request passes
+                from your process to a core OS process and back to your process. The Intent extras
+                come along for the ride.</p>
+            <p>Parcelable is an Android
+                construct, one that is very similar to Serializable. However, Serializable is
+                designed for durable storage of objects, where the file might be read back in months
+                or years later. As such, Serializable has to deal with possible changes to the Java
+                code implementing those classes, and as such needs to have hooks to help with
+                converting old, saved objects into new objects. This adds overhead. Parcelable is
+                only concerned with converting objects into byte arrays to pass across process
+                boundaries. It can make the simplifying assumption that the class definition is not
+                changing from when the object is turned into bytes and when the bytes are turned
+                back into an object. As a result, Parcelable is faster than Serializable for
+                Android’s IPC use.</p>
+            <p>You have three major approaches for adding Parcelable capabilities to your classes
+                in Android:</p>
+            <ol>
+                <li>Use an annotation processor that will add in the appropriate bits of magic
+                    for you zoals <a href="https://github.com/johncarl81/parceler"> Parceler</a></li>
+                <li>Use a code generator site or tool that will take your existing class as input
+                    and give you the Parcelable-enabled rendition as output</li>
+                <li>Just do it yourself</li>
+            </ol>
+            <h3>Just do it yourself</h3>
+            <ul>
+                <li>The first steps is to add implements Parcelable to the class</li>
+                <li>Your job, in writeToParcel(), is to call a series of write...() methods on the
+                    Parcel to write out all data members of this object that should be considered part of
+                    the object as it is passed across process boundaries</li>
+                <li>You will want to have
+                    describeContents() return CONTENTS_FILE_DESCRIPTOR</li>
+
+            </ul>
+            <p>When Android tries reading objects in from a Parcel, and it encounters an instance
+                of your Parcelable class, it will retrieve a static CREATOR object that must be defined
+                on that class. The CREATOR is an instance of Parcelable.Creator, using generics to
+                tie it to the type of your class</p>
+            <p> You can find an example <a href="http://www.survivingwithandroid.com/2015/05/android-parcelable-tutorial-list-class-2.html">here.</a>
+
         </div>
     </div>
 
