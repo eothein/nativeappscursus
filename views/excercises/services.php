@@ -2,6 +2,7 @@
 
 use app\assets\TocAsset;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 TocAsset::register($this);
 $this->title = 'Services and the network';
@@ -15,6 +16,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <p>In this lesson we are going to create an application
                 which will help us browse the popular Reddit Web-site.</p>
+            https://classroom.github.com/assignment-invitations/dff2b10b2630fef95fb5a68d5e872394
+            <p> You can use  <?php echo Html::a('this link', Url::to('https://classroom.github.com/assignment-invitations/dff2b10b2630fef95fb5a68d5e872394', true), ['class' => 'btn btn-primary']) ?> to store your code. </p>
         </div>
     </div>
     <div class="all-sections">
@@ -67,15 +70,16 @@ $this->params['breadcrumbs'][] = $this->title;
                     <li>Check the structure of your JSON file. You can use PostMan from Chrome or use a <a href="http://jsonviewer.stack.hu/#https://reddit.com/r/funny.json">JSONViewer</a> </li>
                     <li>Use GSON to parse your JSON file. You can create your own deserializer to 
                         filter out all the unnecessary information from your JSON file. See e.g. <a href="http://www.javacreed.com/gson-deserialiser-example/">here</a></li>
-                    <li>Although a recyclerview means a lot of boiler plate code, it will help you implements certain functionality</li>
+                    <li>Although a recyclerview means a lot of boiler plate code, it will help you implement certain functionality</li>
                     <li>You can make use of a ORM to make your life easier working with
                         the database. A good suggestion is <a href="http://greendao-orm.com/documentation/introduction/">GreenDAO</a></li>
-                    <li>Debuggin a database can be done as described <a href="http://stackoverflow.com/questions/18370219/how-to-use-adb-in-android-studio-to-view-an-sqlite-db">here</a></li>
+                    <li>Or you could use a ContentProvider. <a href="https://github.com/SimonVT/schematic">this</a> could make things easy?</li>
+                    <li>Debugging a database can be done as described <a href="http://stackoverflow.com/questions/18370219/how-to-use-adb-in-android-studio-to-view-an-sqlite-db">here</a></li>
                     <li>Make use of libraries to connect to the REST API. There is Volley and RetroFit at your disposal. When
                         using Volley it would be wise to create your own <a href="https://developer.android.com/training/volley/request-custom.html">request </a></li>
-                    <li>Off course Butterknife easies your life</li>
+                    <li>Off course Butterknife eases your life</li>
                     <li>A nice library to make circle pictures is <a href="https://github.com/hdodenhof/CircleImageView">de.hdodenhof:circleimageview</a></li>
-                    <li>....</li>
+                    <li>...</li>
                 </ul>
             </div>
         </div>

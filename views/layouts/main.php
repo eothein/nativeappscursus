@@ -58,7 +58,7 @@ AppAsset::register($this);
                         ['label' => 'Intents', 'url' => ['/excercises/intents']],
                     //['label' => 'Recyclerview', 'url' => ['/excercises/recyclerview']],
                     //['label' => 'SqlLite', 'url' => ['/excercises/sqllite']],
-                    //['label' => 'Network & Services', 'url' => ['/excercises/services']],
+                    ['label' => 'Network & Services', 'url' => ['/excercises/services']],
                     //['label' => 'Testing and GreenDAO', 'url' => ['/excercises/testing']],
                     ]],
                 ['label' => 'Bachelorpapers', 'url' => ['/bachelorpaper/index']],
