@@ -22,6 +22,10 @@ class TheoryController extends Controller {
     public function actionHello() {
         return $this->render('helloandroid');
     }
+    
+        public function actionMiscelaneous() {
+        return $this->render('miscelaneous');
+    }
 
     public function actionActivities() {
         return $this->render('activities');
