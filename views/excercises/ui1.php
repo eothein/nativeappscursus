@@ -16,52 +16,52 @@ $this->params['breadcrumbs'][] = $this->title;
             <h1>Creating User interfaces</h1>
 
             <p>In this lesson we will recreate the famous 2048 Game. 2048 is a 
-                single-player puzzle game, in which the objective is to slide 
+                single-player puzzle game in which the objective is to slide 
                 numbered tiles on a grid to combine them and create a tile 
                 with the number 2048.</p>
-            <p> To play an online version, visit <a href="http://2048game.com/"> here </a></p>
+            <p> To play an online version, visit <a href="http://2048game.com/"> 2048 here </a></p>
             <p> Although the web is cool, we are going to make a native version!</p>
             <p>
                 Use this  <?php echo Html::a('this link', Url::to('https://classroom.github.com/assignment-invitations/2cf3822dc3d13cc339a3bbb13194dfe7', true), ['class' => 'btn btn-primary']) ?>
-                to create your repo
+                to create your repository.
             </p>
         </div>
     </div>
     <div class="all-sections">
         <div class="row">
             <div class="col-sm-8">
-                <h2 id="section-one">Excercise 1 : starting the project</h2>
-                In this excercise we will create a welcome screen for the application. This should contain 
-                4 buttons (as shown in the drawing).
+                <h2 id="section-one">Excercise 1 : Starting the project</h2>
+                In this excercise we will create a welcome screen for the application. It should contain 
+                4 buttons (as shown in the example below).
                 <ul>
-                    <li>Contine : continues current game</li>
-                    <li>New Game : start a new game</li>
-                    <li>About: gives use some background on the game</li>
+                    <li>Continue : continue playing the current game</li>
+                    <li>New Game : starts a new game</li>
+                    <li>About: gives use some background information about the game</li>
                     <li>Exit : exits the game</li>
                 </ul>
                 To do this, create a new project and call it oefening1. Follow the next steps:
                 <ol>
                     <li>Create an Activity and call it Welcome</li>
-                    <li>Create the required strings in the string.xml file (the options) </li>
+                    <li>Create the required strings in the string.xml file (the options)</li>
                     <li>Use a linear layout and add the required buttons. Make sure the correct text is 
-                        displayed from strings.xml Provide appropriate names for the id's. </li>
+                        displayed from strings.xml. Provide appropriate names for the id's.</li>
                     <li>Use padding to make the buttons more appealing.</li>
                 </ol>
-                <p>Now try it on your computer or emulator. What happens? Is everything still visible?</p>
-                <p>You can have two versions of every layout. The trick is creating a new directory 
+                <p>Now try to run it on your emulator. What happens? Is everything still visible?</p>
+                <p>You can have two versions of every layout. The trick is to create a new directory 
                     under your /res folder titled: layout-land (you can do this with a right click).
                     Any xml files found in the layout-land 
                     folder will be used when the activity restarts and determines the phone to be in landscape orientation.</p>
-                <h2 id="section-two">Excercise 2: add layouts for landscope mode</h2>
+                <h2 id="section-two">Excercise 2: Adding a layout for landscope mode</h2>
                 <p> Create an alternate layout resource file and use a table layout for 
-                    the buttons. To find more information on tablelayout, click <a href="https://developer.android.com/guide/topics/ui/layout/grid.html">here</a></p>
+                    the buttons. To find more information on tablelayout, click <a href="https://developer.android.com/guide/topics/ui/layout/grid.html">here</a>.</p>
 
             </div>
             <div class='col-sm-4'>
-                <h3>What Are Dips and Sps?</h3>
+                <h3>What Are DPI's and Sps?</h3>
                 <p>Historically, programmers always designed computer interfaces
-                    in terms of pixels. For example, youmight make a field 300 pixels
-                    wide, allow 5 pixels of spacing between columns, and define
+                    in terms of pixels. For example, you might make a field 300 pixels
+                    wide, allow 5 pixels of spacing between columns and define
                     icons 16-by-16 pixels in size. The problem is that if you run that
                     program on new displays with more and more dots per inch
                     (dpi), the user interface appears smaller and smaller. At some
@@ -169,16 +169,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <div class="row">
             <div class='col-sm-10'>
-                <h2 id="section-three">Excercise 3 : the about button</h2>
+                <h2 id="section-three">Excercise 3 : The about button</h2>
                 <p>When the user selects the About button we want
                     to pop up a window with some information about 2048. After scrolling through the text, 
                     the user can press the Back button to dismiss the window. To accomplish this we are going
-                    to create an AlerDialog. For more information click <a href="http://developer.android.com/guide/topics/ui/dialogs.html"> here</a> </p>
+                    to create an AlertDialog. For more information click <a href="http://developer.android.com/guide/topics/ui/dialogs.html">here</a>.</p>
                 <ol>
-                    <li>In the Welcome Activity create a private variable for the about button. </li>
-                    <li>In the onCreate method add the code to retrieve the button for the variable. </li>
-                    <li>In the onCreate method add an OnClickListener to the button which wil generate and show the AlertDialog.</li>
-                    <li>Add in string.xml the text you want to show for the about button (any text you want). </li>
+                    <li>In the Welcome Activity, create a private variable for the about button.</li>
+                    <li>In the onCreate method, add the code to retrieve the button for the variable.</li>
+                    <li>In the onCreate method, add an OnClickListener to the button which will generate and show the AlertDialog.</li>
+                    <li>Add the text you want to show for the about button in string.xml (any text you want).</li>
                 </ol>
                 Test your application by pressing the about button. What happens when there is more text
                 than the screen can show?
@@ -227,15 +227,15 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="row">
             <div class='col-sm-12'>
-                <h2 id="section-four">Excercise 4: use Butterknife</h2>
-                <p>There are many third-party libraries for Android but several of them are so powerful 
-                    we are already going to use them in the early stages of this course. </p>
-                <p>The first library we are going to use is <a href='http://jakewharton.github.io/butterknife/'>ButterKnife</a>. It has a multitude of purposes
-                    but the one we are going to use is eliminating the  findViewById calls by using @Bind on fields.</p>
+                <h2 id="section-four">Excercise 4: Using Butterknife</h2>
+                <p>There are many third-party libraries for Android and several of them are so powerful that
+                    we are already going to use them in the early stages of this course.</p>
+                <p>The first library we are going to use is <a href='http://jakewharton.github.io/butterknife/'>ButterKnife</a>. It has multiple purposes
+                    but the one we are going to use is eliminating the findViewById calls by using @Bind on fields.</p>
                 <ol>
                     <li>First we need to add ButterKnife as a dependency to our project.</li>
-                    <li>Goto File -> Project -> App and to tab Dependencies</li>
-                    <li>Press + with Library Dependency</li>
+                    <li>Goto File -> Project -> App and select the tab Dependencies</li>
+                    <li>Press '+' with Library Dependency</li>
                     <li>Look for Butterknife</li>
                     <li>Add com.jakewharton:butterknife:7.0.1 as your dependency</li>
                 </ol>
@@ -248,8 +248,8 @@ dependencies {
                 </pre>
                 <h3>Use Butterknife</h3>
                 <p>Annotate fields with @Bind and a view ID for Butter Knife to find and automatically cast 
-                    the corresponding view in your layout. Don't forget ButterKnife.bind(this); in the onCreate method.</p>
-                <p>Create a separate method and bind the onClick event to that methode. No need for private inner class.</p>
+                    the corresponding view from your layout. Don't forget ButterKnife.bind(this); in the onCreate method.</p>
+                <p>Create a separate method and bind the onClick event to that methode. There's no need for a private inner class.</p>
             </div>
         </div>
 
@@ -266,9 +266,9 @@ dependencies {
         <div class="row">
             <div class='col-sm-10'>
                 <h2>Excercise 6: Exiting the Game</h2>
-                <p>The user can just press the Back key or the Home key to do something else. Although this is possible
-                ware are going to add this functionality to the exit button in the home screen. Use butterknife and
-                be amazed by its power! No need for case and switch statements for instance.</p>
+                <p>The user can just press the Back key or the Home key to do something else. Although it is not required to exit an app,
+                we are going to add this functionality to the exit button in the home screen. Use butterknife and
+                be amazed by its power! No need for case and switch statements, for instance.</p>
             </div>
         </div>
     </div>
